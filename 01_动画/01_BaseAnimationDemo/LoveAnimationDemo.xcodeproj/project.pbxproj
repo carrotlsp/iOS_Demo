@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBC5209666B7DE0C5A80E0CB /* Pods_LoveAnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0F33542E1C476FB4581761 /* Pods_LoveAnimationDemo.framework */; };
+		E801145825AD905800D1FF54 /* GroupAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E801145625AD905800D1FF54 /* GroupAnimationViewController.m */; };
+		E801145925AD905800D1FF54 /* GroupAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E801145725AD905800D1FF54 /* GroupAnimationViewController.xib */; };
+		E801146225AD90E700D1FF54 /* 1111.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E801146025AD90E700D1FF54 /* 1111.jpeg */; };
+		E801146325AD90E700D1FF54 /* 333.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E801146125AD90E700D1FF54 /* 333.jpeg */; };
+		E801146A25AD96A300D1FF54 /* WLikeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E801146925AD96A300D1FF54 /* WLikeAnimationView.m */; };
+		E801147325AD96BD00D1FF54 /* WLikeAnimationView_New.m in Sources */ = {isa = PBXBuildFile; fileRef = E801147225AD96BD00D1FF54 /* WLikeAnimationView_New.m */; };
+		E801147A25AD96F100D1FF54 /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E801147825AD96F100D1FF54 /* LikeViewController.m */; };
+		E801147B25AD96F100D1FF54 /* LikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E801147925AD96F100D1FF54 /* LikeViewController.xib */; };
+		E801148125AD970600D1FF54 /* WSafeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E801148025AD970600D1FF54 /* WSafeTimer.m */; };
+		E801149025ADA5FC00D1FF54 /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E801148E25ADA5FC00D1FF54 /* BezierViewController.m */; };
+		E801149125ADA5FC00D1FF54 /* BezierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E801148F25ADA5FC00D1FF54 /* BezierViewController.xib */; };
+		E801149A25ADA61100D1FF54 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = E801149925ADA61100D1FF54 /* BezierView.m */; };
+		E820AE5D25C112AA00D2E4CD /* ZTHLiveLoveBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E820AE5825C112AA00D2E4CD /* ZTHLiveLoveBannerView.m */; };
+		E820AE5E25C112AA00D2E4CD /* ZTHLiveLoveBannerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E820AE5925C112AA00D2E4CD /* ZTHLiveLoveBannerItem.m */; };
+		E820AE5F25C112AA00D2E4CD /* ZTHLiveLoveBannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E820AE5B25C112AA00D2E4CD /* ZTHLiveLoveBannerManager.m */; };
+		E824065B25B6E80D00CFE649 /* BottomControllView.m in Sources */ = {isa = PBXBuildFile; fileRef = E824065A25B6E80D00CFE649 /* BottomControllView.m */; };
+		E886EA5225AD29D500DB8B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E886EA5125AD29D500DB8B4F /* AppDelegate.m */; };
+		E886EA5B25AD29D500DB8B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E886EA5925AD29D500DB8B4F /* Main.storyboard */; };
+		E886EA5D25AD29D700DB8B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E886EA5C25AD29D700DB8B4F /* Assets.xcassets */; };
+		E886EA6025AD29D700DB8B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E886EA5E25AD29D700DB8B4F /* LaunchScreen.storyboard */; };
+		E886EA6325AD29D700DB8B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E886EA6225AD29D700DB8B4F /* main.m */; };
+		E886EA6D25AD29D700DB8B4F /* LoveAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E886EA6C25AD29D700DB8B4F /* LoveAnimationDemoTests.m */; };
+		E886EA7825AD29D700DB8B4F /* LoveAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E886EA7725AD29D700DB8B4F /* LoveAnimationDemoUITests.m */; };
+		E886EA8F25AD335F00DB8B4F /* SingleAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886EA8D25AD335F00DB8B4F /* SingleAnimationViewController.m */; };
+		E886EA9025AD335F00DB8B4F /* SingleAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E886EA8E25AD335F00DB8B4F /* SingleAnimationViewController.xib */; };
+		E886EAAA25AD80ED00DB8B4F /* MultiAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886EAA825AD80ED00DB8B4F /* MultiAnimationViewController.m */; };
+		E886EAAB25AD80ED00DB8B4F /* MultiAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E886EAA925AD80ED00DB8B4F /* MultiAnimationViewController.xib */; };
+		E8DC39CF25B8543C00020E41 /* LiveBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC39CD25B8543C00020E41 /* LiveBannerViewController.m */; };
+		E8DC39D025B8543C00020E41 /* LiveBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DC39CE25B8543C00020E41 /* LiveBannerViewController.xib */; };
+		E8DC39D925B90BBC00020E41 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC39D825B90BBC00020E41 /* TestView.m */; };
+		E8E132C525C2A79C00EC103F /* ViewBlockAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E132C325C2A79C00EC103F /* ViewBlockAnimationViewController.m */; };
+		E8E132C625C2A79C00EC103F /* ViewBlockAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E132C425C2A79C00EC103F /* ViewBlockAnimationViewController.xib */; };
+		E8E984CC25B1260300DB8B37 /* BarrageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E984CA25B1260300DB8B37 /* BarrageViewController.m */; };
+		E8E984CD25B1260300DB8B37 /* BarrageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E984CB25B1260300DB8B37 /* BarrageViewController.xib */; };
+		E8E984DC25B164A400DB8B37 /* ZTHLiveBarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E984DB25B164A400DB8B37 /* ZTHLiveBarrageManager.m */; };
+		E8E984E525B1650E00DB8B37 /* ZTHLiveBarrageOrbit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E984E425B1650E00DB8B37 /* ZTHLiveBarrageOrbit.m */; };
+		E8E984EB25B1655B00DB8B37 /* ZTHLiveBarrageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E984EA25B1655B00DB8B37 /* ZTHLiveBarrageItem.m */; };
+		E8E984F125B1656F00DB8B37 /* ZTHLiveBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E984F025B1656F00DB8B37 /* ZTHLiveBarrageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E886EA6925AD29D700DB8B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E886EA4525AD29D500DB8B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E886EA4C25AD29D500DB8B4F;
+			remoteInfo = LoveAnimationDemo;
+		};
+		E886EA7425AD29D700DB8B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E886EA4525AD29D500DB8B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E886EA4C25AD29D500DB8B4F;
+			remoteInfo = LoveAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34354D0520C12E43FD66D458 /* Pods-LoveAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-LoveAnimationDemo/Pods-LoveAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		882C3A634241A271B683482A /* Pods-LoveAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-LoveAnimationDemo/Pods-LoveAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E801145525AD905800D1FF54 /* GroupAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnimationViewController.h; sourceTree = "<group>"; };
+		E801145625AD905800D1FF54 /* GroupAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationViewController.m; sourceTree = "<group>"; };
+		E801145725AD905800D1FF54 /* GroupAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupAnimationViewController.xib; sourceTree = "<group>"; };
+		E801146025AD90E700D1FF54 /* 1111.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1111.jpeg; sourceTree = "<group>"; };
+		E801146125AD90E700D1FF54 /* 333.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 333.jpeg; sourceTree = "<group>"; };
+		E801146825AD96A300D1FF54 /* WLikeAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLikeAnimationView.h; sourceTree = "<group>"; };
+		E801146925AD96A300D1FF54 /* WLikeAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLikeAnimationView.m; sourceTree = "<group>"; };
+		E801147125AD96BD00D1FF54 /* WLikeAnimationView_New.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLikeAnimationView_New.h; sourceTree = "<group>"; };
+		E801147225AD96BD00D1FF54 /* WLikeAnimationView_New.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLikeAnimationView_New.m; sourceTree = "<group>"; };
+		E801147725AD96F100D1FF54 /* LikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeViewController.h; sourceTree = "<group>"; };
+		E801147825AD96F100D1FF54 /* LikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeViewController.m; sourceTree = "<group>"; };
+		E801147925AD96F100D1FF54 /* LikeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeViewController.xib; sourceTree = "<group>"; };
+		E801147F25AD970600D1FF54 /* WSafeTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSafeTimer.h; sourceTree = "<group>"; };
+		E801148025AD970600D1FF54 /* WSafeTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSafeTimer.m; sourceTree = "<group>"; };
+		E801148D25ADA5FC00D1FF54 /* BezierViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierViewController.h; sourceTree = "<group>"; };
+		E801148E25ADA5FC00D1FF54 /* BezierViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierViewController.m; sourceTree = "<group>"; };
+		E801148F25ADA5FC00D1FF54 /* BezierViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BezierViewController.xib; sourceTree = "<group>"; };
+		E801149825ADA61100D1FF54 /* BezierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		E801149925ADA61100D1FF54 /* BezierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		E820AE5725C112AA00D2E4CD /* ZTHLiveLoveBannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHLiveLoveBannerManager.h; sourceTree = "<group>"; };
+		E820AE5825C112AA00D2E4CD /* ZTHLiveLoveBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHLiveLoveBannerView.m; sourceTree = "<group>"; };
+		E820AE5925C112AA00D2E4CD /* ZTHLiveLoveBannerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHLiveLoveBannerItem.m; sourceTree = "<group>"; };
+		E820AE5A25C112AA00D2E4CD /* ZTHLiveLoveBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHLiveLoveBannerView.h; sourceTree = "<group>"; };
+		E820AE5B25C112AA00D2E4CD /* ZTHLiveLoveBannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHLiveLoveBannerManager.m; sourceTree = "<group>"; };
+		E820AE5C25C112AA00D2E4CD /* ZTHLiveLoveBannerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHLiveLoveBannerItem.h; sourceTree = "<group>"; };
+		E824065925B6E80D00CFE649 /* BottomControllView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomControllView.h; sourceTree = "<group>"; };
+		E824065A25B6E80D00CFE649 /* BottomControllView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomControllView.m; sourceTree = "<group>"; };
+		E886EA4D25AD29D500DB8B4F /* LoveAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E886EA5025AD29D500DB8B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E886EA5125AD29D500DB8B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E886EA5A25AD29D500DB8B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E886EA5C25AD29D700DB8B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E886EA5F25AD29D700DB8B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E886EA6125AD29D700DB8B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E886EA6225AD29D700DB8B4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E886EA6825AD29D700DB8B4F /* LoveAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E886EA6C25AD29D700DB8B4F /* LoveAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveAnimationDemoTests.m; sourceTree = "<group>"; };
+		E886EA6E25AD29D700DB8B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E886EA7325AD29D700DB8B4F /* LoveAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E886EA7725AD29D700DB8B4F /* LoveAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveAnimationDemoUITests.m; sourceTree = "<group>"; };
+		E886EA7925AD29D700DB8B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E886EA8C25AD335F00DB8B4F /* SingleAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleAnimationViewController.h; sourceTree = "<group>"; };
+		E886EA8D25AD335F00DB8B4F /* SingleAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleAnimationViewController.m; sourceTree = "<group>"; };
+		E886EA8E25AD335F00DB8B4F /* SingleAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleAnimationViewController.xib; sourceTree = "<group>"; };
+		E886EAA725AD80ED00DB8B4F /* MultiAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiAnimationViewController.h; sourceTree = "<group>"; };
+		E886EAA825AD80ED00DB8B4F /* MultiAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiAnimationViewController.m; sourceTree = "<group>"; };
+		E886EAA925AD80ED00DB8B4F /* MultiAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiAnimationViewController.xib; sourceTree = "<group>"; };
+		E8DC39CC25B8543C00020E41 /* LiveBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveBannerViewController.h; sourceTree = "<group>"; };
+		E8DC39CD25B8543C00020E41 /* LiveBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveBannerViewController.m; sourceTree = "<group>"; };
+		E8DC39CE25B8543C00020E41 /* LiveBannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveBannerViewController.xib; sourceTree = "<group>"; };
+		E8DC39D725B90BBC00020E41 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		E8DC39D825B90BBC00020E41 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		E8E132C225C2A79C00EC103F /* ViewBlockAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewBlockAnimationViewController.h; sourceTree = "<group>"; };
+		E8E132C325C2A79C00EC103F /* ViewBlockAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBlockAnimationViewController.m; sourceTree = "<group>"; };
+		E8E132C425C2A79C00EC103F /* ViewBlockAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewBlockAnimationViewController.xib; sourceTree = "<group>"; };
+		E8E984C925B1260300DB8B37 /* BarrageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrageViewController.h; sourceTree = "<group>"; };
+		E8E984CA25B1260300DB8B37 /* BarrageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageViewController.m; sourceTree = "<group>"; };
+		E8E984CB25B1260300DB8B37 /* BarrageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarrageViewController.xib; sourceTree = "<group>"; };
+		E8E984DA25B164A400DB8B37 /* ZTHLiveBarrageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHLiveBarrageManager.h; sourceTree = "<group>"; };
+		E8E984DB25B164A400DB8B37 /* ZTHLiveBarrageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTHLiveBarrageManager.m; sourceTree = "<group>"; };
+		E8E984E325B1650E00DB8B37 /* ZTHLiveBarrageOrbit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHLiveBarrageOrbit.h; sourceTree = "<group>"; };
+		E8E984E425B1650E00DB8B37 /* ZTHLiveBarrageOrbit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTHLiveBarrageOrbit.m; sourceTree = "<group>"; };
+		E8E984E925B1655B00DB8B37 /* ZTHLiveBarrageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHLiveBarrageItem.h; sourceTree = "<group>"; };
+		E8E984EA25B1655B00DB8B37 /* ZTHLiveBarrageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTHLiveBarrageItem.m; sourceTree = "<group>"; };
+		E8E984EF25B1656F00DB8B37 /* ZTHLiveBarrageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTHLiveBarrageView.h; sourceTree = "<group>"; };
+		E8E984F025B1656F00DB8B37 /* ZTHLiveBarrageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTHLiveBarrageView.m; sourceTree = "<group>"; };
+		E8E984F525B173C600DB8B37 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FF0F33542E1C476FB4581761 /* Pods_LoveAnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveAnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E886EA4A25AD29D500DB8B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC5209666B7DE0C5A80E0CB /* Pods_LoveAnimationDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886EA6525AD29D700DB8B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886EA7025AD29D700DB8B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406DBB49D58760B9D89B7171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0F33542E1C476FB4581761 /* Pods_LoveAnimationDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		705474D9975F1764EA176A61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34354D0520C12E43FD66D458 /* Pods-LoveAnimationDemo.debug.xcconfig */,
+				882C3A634241A271B683482A /* Pods-LoveAnimationDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E801145425AD8DE100D1FF54 /* 动画组 */ = {
+			isa = PBXGroup;
+			children = (
+				E801145525AD905800D1FF54 /* GroupAnimationViewController.h */,
+				E801145625AD905800D1FF54 /* GroupAnimationViewController.m */,
+				E801145725AD905800D1FF54 /* GroupAnimationViewController.xib */,
+				E801146125AD90E700D1FF54 /* 333.jpeg */,
+				E801146025AD90E700D1FF54 /* 1111.jpeg */,
+			);
+			path = "动画组";
+			sourceTree = "<group>";
+		};
+		E801146725AD948E00D1FF54 /* 爱心动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E801147725AD96F100D1FF54 /* LikeViewController.h */,
+				E801147825AD96F100D1FF54 /* LikeViewController.m */,
+				E801147925AD96F100D1FF54 /* LikeViewController.xib */,
+				E801146825AD96A300D1FF54 /* WLikeAnimationView.h */,
+				E801146925AD96A300D1FF54 /* WLikeAnimationView.m */,
+				E801147125AD96BD00D1FF54 /* WLikeAnimationView_New.h */,
+				E801147225AD96BD00D1FF54 /* WLikeAnimationView_New.m */,
+				E801147F25AD970600D1FF54 /* WSafeTimer.h */,
+				E801148025AD970600D1FF54 /* WSafeTimer.m */,
+			);
+			path = "爱心动画";
+			sourceTree = "<group>";
+		};
+		E801148B25ADA56600D1FF54 /* 贝塞尔曲线 */ = {
+			isa = PBXGroup;
+			children = (
+				E801148D25ADA5FC00D1FF54 /* BezierViewController.h */,
+				E801148E25ADA5FC00D1FF54 /* BezierViewController.m */,
+				E801148F25ADA5FC00D1FF54 /* BezierViewController.xib */,
+				E801149825ADA61100D1FF54 /* BezierView.h */,
+				E801149925ADA61100D1FF54 /* BezierView.m */,
+			);
+			path = "贝塞尔曲线";
+			sourceTree = "<group>";
+		};
+		E820AE5625C112AA00D2E4CD /* LiveLoveBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				E820AE5725C112AA00D2E4CD /* ZTHLiveLoveBannerManager.h */,
+				E820AE5B25C112AA00D2E4CD /* ZTHLiveLoveBannerManager.m */,
+				E820AE5C25C112AA00D2E4CD /* ZTHLiveLoveBannerItem.h */,
+				E820AE5925C112AA00D2E4CD /* ZTHLiveLoveBannerItem.m */,
+				E820AE5A25C112AA00D2E4CD /* ZTHLiveLoveBannerView.h */,
+				E820AE5825C112AA00D2E4CD /* ZTHLiveLoveBannerView.m */,
+			);
+			path = LiveLoveBannerView;
+			sourceTree = "<group>";
+		};
+		E824065825B6E7EB00CFE649 /* BottomControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				E824065925B6E80D00CFE649 /* BottomControllView.h */,
+				E824065A25B6E80D00CFE649 /* BottomControllView.m */,
+			);
+			path = BottomControllerView;
+			sourceTree = "<group>";
+		};
+		E886EA4425AD29D500DB8B4F = {
+			isa = PBXGroup;
+			children = (
+				E886EA4F25AD29D500DB8B4F /* LoveAnimationDemo */,
+				E886EA6B25AD29D700DB8B4F /* LoveAnimationDemoTests */,
+				E886EA7625AD29D700DB8B4F /* LoveAnimationDemoUITests */,
+				E886EA4E25AD29D500DB8B4F /* Products */,
+				705474D9975F1764EA176A61 /* Pods */,
+				406DBB49D58760B9D89B7171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E886EA4E25AD29D500DB8B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E886EA4D25AD29D500DB8B4F /* LoveAnimationDemo.app */,
+				E886EA6825AD29D700DB8B4F /* LoveAnimationDemoTests.xctest */,
+				E886EA7325AD29D700DB8B4F /* LoveAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E886EA4F25AD29D500DB8B4F /* LoveAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E8E132C025C2A5FA00EC103F /* 动画基础 */,
+				E8E132BC25C2A5DB00EC103F /* 动画实例 */,
+				E886EA5025AD29D500DB8B4F /* AppDelegate.h */,
+				E886EA5125AD29D500DB8B4F /* AppDelegate.m */,
+				E886EA5925AD29D500DB8B4F /* Main.storyboard */,
+				E886EA5C25AD29D700DB8B4F /* Assets.xcassets */,
+				E886EA5E25AD29D700DB8B4F /* LaunchScreen.storyboard */,
+				E886EA6125AD29D700DB8B4F /* Info.plist */,
+				E886EA6225AD29D700DB8B4F /* main.m */,
+				E8E984F525B173C600DB8B37 /* PrefixHeader.pch */,
+			);
+			path = LoveAnimationDemo;
+			sourceTree = "<group>";
+		};
+		E886EA6B25AD29D700DB8B4F /* LoveAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E886EA6C25AD29D700DB8B4F /* LoveAnimationDemoTests.m */,
+				E886EA6E25AD29D700DB8B4F /* Info.plist */,
+			);
+			path = LoveAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		E886EA7625AD29D700DB8B4F /* LoveAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E886EA7725AD29D700DB8B4F /* LoveAnimationDemoUITests.m */,
+				E886EA7925AD29D700DB8B4F /* Info.plist */,
+			);
+			path = LoveAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		E886EA8B25AD333A00DB8B4F /* 单步动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E886EA8C25AD335F00DB8B4F /* SingleAnimationViewController.h */,
+				E886EA8D25AD335F00DB8B4F /* SingleAnimationViewController.m */,
+				E886EA8E25AD335F00DB8B4F /* SingleAnimationViewController.xib */,
+			);
+			path = "单步动画";
+			sourceTree = "<group>";
+		};
+		E886EAA625AD80CC00DB8B4F /* 关键帧动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E886EAA725AD80ED00DB8B4F /* MultiAnimationViewController.h */,
+				E886EAA825AD80ED00DB8B4F /* MultiAnimationViewController.m */,
+				E886EAA925AD80ED00DB8B4F /* MultiAnimationViewController.xib */,
+			);
+			path = "关键帧动画";
+			sourceTree = "<group>";
+		};
+		E8DC399425B842AE00020E41 /* 爱心横幅 */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC39D725B90BBC00020E41 /* TestView.h */,
+				E8DC39D825B90BBC00020E41 /* TestView.m */,
+				E8DC39CC25B8543C00020E41 /* LiveBannerViewController.h */,
+				E8DC39CD25B8543C00020E41 /* LiveBannerViewController.m */,
+				E8DC39CE25B8543C00020E41 /* LiveBannerViewController.xib */,
+			);
+			path = "爱心横幅";
+			sourceTree = "<group>";
+		};
+		E8E132BC25C2A5DB00EC103F /* 动画实例 */ = {
+			isa = PBXGroup;
+			children = (
+				E801146725AD948E00D1FF54 /* 爱心动画 */,
+				E8E984C825B1257C00DB8B37 /* 弹幕 */,
+				E8DC399425B842AE00020E41 /* 爱心横幅 */,
+			);
+			path = "动画实例";
+			sourceTree = "<group>";
+		};
+		E8E132C025C2A5FA00EC103F /* 动画基础 */ = {
+			isa = PBXGroup;
+			children = (
+				E8E132C125C2A61E00EC103F /* Block动画 */,
+				E801148B25ADA56600D1FF54 /* 贝塞尔曲线 */,
+				E801145425AD8DE100D1FF54 /* 动画组 */,
+				E886EAA625AD80CC00DB8B4F /* 关键帧动画 */,
+				E886EA8B25AD333A00DB8B4F /* 单步动画 */,
+			);
+			path = "动画基础";
+			sourceTree = "<group>";
+		};
+		E8E132C125C2A61E00EC103F /* Block动画 */ = {
+			isa = PBXGroup;
+			children = (
+				E8E132C225C2A79C00EC103F /* ViewBlockAnimationViewController.h */,
+				E8E132C325C2A79C00EC103F /* ViewBlockAnimationViewController.m */,
+				E8E132C425C2A79C00EC103F /* ViewBlockAnimationViewController.xib */,
+			);
+			path = "Block动画";
+			sourceTree = "<group>";
+		};
+		E8E984C825B1257C00DB8B37 /* 弹幕 */ = {
+			isa = PBXGroup;
+			children = (
+				E820AE5625C112AA00D2E4CD /* LiveLoveBannerView */,
+				E824065825B6E7EB00CFE649 /* BottomControllerView */,
+				E8E984C925B1260300DB8B37 /* BarrageViewController.h */,
+				E8E984CA25B1260300DB8B37 /* BarrageViewController.m */,
+				E8E984CB25B1260300DB8B37 /* BarrageViewController.xib */,
+				E8E984D925B133E100DB8B37 /* LiveBarrageView */,
+			);
+			path = "弹幕";
+			sourceTree = "<group>";
+		};
+		E8E984D925B133E100DB8B37 /* LiveBarrageView */ = {
+			isa = PBXGroup;
+			children = (
+				E8E984DA25B164A400DB8B37 /* ZTHLiveBarrageManager.h */,
+				E8E984DB25B164A400DB8B37 /* ZTHLiveBarrageManager.m */,
+				E8E984E325B1650E00DB8B37 /* ZTHLiveBarrageOrbit.h */,
+				E8E984E425B1650E00DB8B37 /* ZTHLiveBarrageOrbit.m */,
+				E8E984E925B1655B00DB8B37 /* ZTHLiveBarrageItem.h */,
+				E8E984EA25B1655B00DB8B37 /* ZTHLiveBarrageItem.m */,
+				E8E984EF25B1656F00DB8B37 /* ZTHLiveBarrageView.h */,
+				E8E984F025B1656F00DB8B37 /* ZTHLiveBarrageView.m */,
+			);
+			path = LiveBarrageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E886EA4C25AD29D500DB8B4F /* LoveAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E886EA7C25AD29D700DB8B4F /* Build configuration list for PBXNativeTarget "LoveAnimationDemo" */;
+			buildPhases = (
+				5F425B11452D68D3A655B94D /* [CP] Check Pods Manifest.lock */,
+				E886EA4925AD29D500DB8B4F /* Sources */,
+				E886EA4A25AD29D500DB8B4F /* Frameworks */,
+				E886EA4B25AD29D500DB8B4F /* Resources */,
+				DACCE5B2202B3DC51EE95A12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveAnimationDemo;
+			productName = LoveAnimationDemo;
+			productReference = E886EA4D25AD29D500DB8B4F /* LoveAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E886EA6725AD29D700DB8B4F /* LoveAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E886EA7F25AD29D700DB8B4F /* Build configuration list for PBXNativeTarget "LoveAnimationDemoTests" */;
+			buildPhases = (
+				E886EA6425AD29D700DB8B4F /* Sources */,
+				E886EA6525AD29D700DB8B4F /* Frameworks */,
+				E886EA6625AD29D700DB8B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E886EA6A25AD29D700DB8B4F /* PBXTargetDependency */,
+			);
+			name = LoveAnimationDemoTests;
+			productName = LoveAnimationDemoTests;
+			productReference = E886EA6825AD29D700DB8B4F /* LoveAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E886EA7225AD29D700DB8B4F /* LoveAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E886EA8225AD29D700DB8B4F /* Build configuration list for PBXNativeTarget "LoveAnimationDemoUITests" */;
+			buildPhases = (
+				E886EA6F25AD29D700DB8B4F /* Sources */,
+				E886EA7025AD29D700DB8B4F /* Frameworks */,
+				E886EA7125AD29D700DB8B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E886EA7525AD29D700DB8B4F /* PBXTargetDependency */,
+			);
+			name = LoveAnimationDemoUITests;
+			productName = LoveAnimationDemoUITests;
+			productReference = E886EA7325AD29D700DB8B4F /* LoveAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E886EA4525AD29D500DB8B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E886EA4C25AD29D500DB8B4F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E886EA6725AD29D700DB8B4F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E886EA4C25AD29D500DB8B4F;
+					};
+					E886EA7225AD29D700DB8B4F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E886EA4C25AD29D500DB8B4F;
+					};
+				};
+			};
+			buildConfigurationList = E886EA4825AD29D500DB8B4F /* Build configuration list for PBXProject "LoveAnimationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E886EA4425AD29D500DB8B4F;
+			productRefGroup = E886EA4E25AD29D500DB8B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E886EA4C25AD29D500DB8B4F /* LoveAnimationDemo */,
+				E886EA6725AD29D700DB8B4F /* LoveAnimationDemoTests */,
+				E886EA7225AD29D700DB8B4F /* LoveAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E886EA4B25AD29D500DB8B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E801145925AD905800D1FF54 /* GroupAnimationViewController.xib in Resources */,
+				E801147B25AD96F100D1FF54 /* LikeViewController.xib in Resources */,
+				E8DC39D025B8543C00020E41 /* LiveBannerViewController.xib in Resources */,
+				E8E132C625C2A79C00EC103F /* ViewBlockAnimationViewController.xib in Resources */,
+				E8E984CD25B1260300DB8B37 /* BarrageViewController.xib in Resources */,
+				E886EAAB25AD80ED00DB8B4F /* MultiAnimationViewController.xib in Resources */,
+				E801149125ADA5FC00D1FF54 /* BezierViewController.xib in Resources */,
+				E886EA6025AD29D700DB8B4F /* LaunchScreen.storyboard in Resources */,
+				E886EA9025AD335F00DB8B4F /* SingleAnimationViewController.xib in Resources */,
+				E801146225AD90E700D1FF54 /* 1111.jpeg in Resources */,
+				E801146325AD90E700D1FF54 /* 333.jpeg in Resources */,
+				E886EA5D25AD29D700DB8B4F /* Assets.xcassets in Resources */,
+				E886EA5B25AD29D500DB8B4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886EA6625AD29D700DB8B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886EA7125AD29D700DB8B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F425B11452D68D3A655B94D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACCE5B2202B3DC51EE95A12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveAnimationDemo/Pods-LoveAnimationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveAnimationDemo/Pods-LoveAnimationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveAnimationDemo/Pods-LoveAnimationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E886EA4925AD29D500DB8B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E801146A25AD96A300D1FF54 /* WLikeAnimationView.m in Sources */,
+				E801147325AD96BD00D1FF54 /* WLikeAnimationView_New.m in Sources */,
+				E886EA5225AD29D500DB8B4F /* AppDelegate.m in Sources */,
+				E801147A25AD96F100D1FF54 /* LikeViewController.m in Sources */,
+				E8E984F125B1656F00DB8B37 /* ZTHLiveBarrageView.m in Sources */,
+				E8DC39D925B90BBC00020E41 /* TestView.m in Sources */,
+				E886EA6325AD29D700DB8B4F /* main.m in Sources */,
+				E8E984EB25B1655B00DB8B37 /* ZTHLiveBarrageItem.m in Sources */,
+				E820AE5F25C112AA00D2E4CD /* ZTHLiveLoveBannerManager.m in Sources */,
+				E801149025ADA5FC00D1FF54 /* BezierViewController.m in Sources */,
+				E801149A25ADA61100D1FF54 /* BezierView.m in Sources */,
+				E8E132C525C2A79C00EC103F /* ViewBlockAnimationViewController.m in Sources */,
+				E820AE5E25C112AA00D2E4CD /* ZTHLiveLoveBannerItem.m in Sources */,
+				E886EA8F25AD335F00DB8B4F /* SingleAnimationViewController.m in Sources */,
+				E8E984E525B1650E00DB8B37 /* ZTHLiveBarrageOrbit.m in Sources */,
+				E801145825AD905800D1FF54 /* GroupAnimationViewController.m in Sources */,
+				E8DC39CF25B8543C00020E41 /* LiveBannerViewController.m in Sources */,
+				E8E984CC25B1260300DB8B37 /* BarrageViewController.m in Sources */,
+				E824065B25B6E80D00CFE649 /* BottomControllView.m in Sources */,
+				E801148125AD970600D1FF54 /* WSafeTimer.m in Sources */,
+				E8E984DC25B164A400DB8B37 /* ZTHLiveBarrageManager.m in Sources */,
+				E886EAAA25AD80ED00DB8B4F /* MultiAnimationViewController.m in Sources */,
+				E820AE5D25C112AA00D2E4CD /* ZTHLiveLoveBannerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886EA6425AD29D700DB8B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E886EA6D25AD29D700DB8B4F /* LoveAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E886EA6F25AD29D700DB8B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E886EA7825AD29D700DB8B4F /* LoveAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E886EA6A25AD29D700DB8B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E886EA4C25AD29D500DB8B4F /* LoveAnimationDemo */;
+			targetProxy = E886EA6925AD29D700DB8B4F /* PBXContainerItemProxy */;
+		};
+		E886EA7525AD29D700DB8B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E886EA4C25AD29D500DB8B4F /* LoveAnimationDemo */;
+			targetProxy = E886EA7425AD29D700DB8B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E886EA5925AD29D500DB8B4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E886EA5A25AD29D500DB8B4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E886EA5E25AD29D700DB8B4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E886EA5F25AD29D700DB8B4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E886EA7A25AD29D700DB8B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E886EA7B25AD29D700DB8B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E886EA7D25AD29D700DB8B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34354D0520C12E43FD66D458 /* Pods-LoveAnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = LoveAnimationDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = LoveAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.LoveAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E886EA7E25AD29D700DB8B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882C3A634241A271B683482A /* Pods-LoveAnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = LoveAnimationDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = LoveAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.LoveAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E886EA8025AD29D700DB8B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveAnimationDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.LoveAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveAnimationDemo.app/LoveAnimationDemo";
+			};
+			name = Debug;
+		};
+		E886EA8125AD29D700DB8B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveAnimationDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.LoveAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveAnimationDemo.app/LoveAnimationDemo";
+			};
+			name = Release;
+		};
+		E886EA8325AD29D700DB8B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.LoveAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveAnimationDemo;
+			};
+			name = Debug;
+		};
+		E886EA8425AD29D700DB8B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrot.LoveAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E886EA4825AD29D500DB8B4F /* Build configuration list for PBXProject "LoveAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E886EA7A25AD29D700DB8B4F /* Debug */,
+				E886EA7B25AD29D700DB8B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E886EA7C25AD29D700DB8B4F /* Build configuration list for PBXNativeTarget "LoveAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E886EA7D25AD29D700DB8B4F /* Debug */,
+				E886EA7E25AD29D700DB8B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E886EA7F25AD29D700DB8B4F /* Build configuration list for PBXNativeTarget "LoveAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E886EA8025AD29D700DB8B4F /* Debug */,
+				E886EA8125AD29D700DB8B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E886EA8225AD29D700DB8B4F /* Build configuration list for PBXNativeTarget "LoveAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E886EA8325AD29D700DB8B4F /* Debug */,
+				E886EA8425AD29D700DB8B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E886EA4525AD29D500DB8B4F /* Project object */;
+}
